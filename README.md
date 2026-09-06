@@ -2,44 +2,101 @@
 
 
 
-# [Project Name] 🎯
+# [Project Name] 🥥 THE THENGA ALERT
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: twin.
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: Sowparnika T - SCMS SCHOOL OF ENGINEERING AND TECHNOLOGY.
+- Member 2: Athmaja P Nair - SCMS SCHOOL OF ENGINEERING AND TECHNOLOGY.
 
 ### Project Description
-[2-3 lines about what your project does]
+THENGA ALERT is a completely unnecessary but extremely important web application designed to warn people about the most unpredictable threat in Kerala — falling coconuts. 🥥
+
+The website simulates a coconut falling from a coconut tree and gives users hilarious Kerala-style alerts based on the result. Because apparently, we needed technology to solve a problem that gravity has already been handling for centuries.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+Living in Kerala comes with many unavoidable dangers: rain, traffic, mosquitoes, and most importantly...
+
+COCONUTS. 🥥
+
+You could be peacefully walking under a coconut tree when suddenly gravity decides that today is your day.
+
+Unfortunately, there is currently no scientifically approved system that tells you:
+
+"Bro, move. A thenga is coming."
+
+This project aims to solve this extremely serious non-existent problem.
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+Introducing THENGA ALERT — Kerala's most unnecessary coconut safety system.
+
+The user simply presses the "CHECK THENGA" button.
+
+The system then:
+
+Detects the user's extremely important presence.
+Performs a highly sophisticated random coconut-risk calculation.
+Releases a virtual coconut.
+Shows a dramatic warning.
+Decides whether the user survives.
+
+Possible alerts include:
+
+🥥 "THENGA ALERT! MOVE DA!"
+🥥 "Gravity has selected you."
+🥥 "Congratulations! You are today's target."
+🥥 "Safe today. Coconut has other plans."
+🥥 "THENGA INCOMING. RUN."
+🥥 "അയ്യോ! തേങ്ങ വീഴുന്നു!"
+🥥 "You survived. For now."
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
-
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+HTML5 – Structure of the website
+CSS3 – Styling, animations and visual design
+JavaScript – Coconut logic, random alerts and interactions
+VS Code – Code editor
+Web Browser – Running and testing the application
+Git/GitHub – Version control and project hosting
 
 ### Implementation
 For Software:
+The project is a static web application developed using HTML, CSS and JavaScript.
+
+Project structure:
+
+THENGA-ALERT/
+│
+├── index.html
+├── style.css
+├── script.js
+└── screenshots/
+    ├── home-page.png
+    ├── coconut-alert.png
+    ├── alert-result.png
+    └── workflow.png
+
 # Installation
-[commands]
+Clone the GitHub repository:
+
+git clone <your-github-repository-link>
+
+Navigate into the project folder:
+
+cd THENGA-ALERT
+
+No additional packages or dependencies are required.
+
+The project uses only:
+
+HTML5
+CSS3
+JavaScript
 
 # Run
 [commands]
@@ -48,8 +105,9 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot1]The intro screen 
+ "THE THENGA ALERT" with the danger warning
+ ![alt text](<Screenshot 2026-09-06 064931.png>)
 
 ![Screenshot2](Add screenshot 2 here with proper name)
 *Add caption explaining what this shows*
