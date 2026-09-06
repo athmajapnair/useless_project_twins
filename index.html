@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thenga Alert</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- PREMIUM — fixed top-right corner, not a buried option -->
+<button class="premium-badge" id="premiumBadge">⭐ Premium</button>
+
+<div class="shell">
+
+    <!-- PAGE 1: FULL-SCREEN GREEN INTRO -->
+    <section class="intro-page active" id="introPage">
+        <div class="palm-scene">
+            <div class="tree" id="tree">
+                <span class="trunk-emoji">🌴</span>
+                <div id="fallingCoconut">🥥</div>
+            </div>
+        </div>
+
+        <h1>🥥 THE THENGA ALERT</h1>
+        <p class="tagline">Because gravity is personal in Kerala.</p>
+        <p class="warning">⚠️ Do it at your own risk.</p>
+
+        <h2>Find out if today's the day.</h2>
+        <button class="btn primary" id="startBtn">Check My Risk ➡️</button>
+
+        <p class="disclaimer">
+            For entertainment purposes only.<br>
+            Ath and Sow is not responsible for coconut-related incidents.
+        </p>
+    </section>
+
+    <!-- PAGE 2: FULL-SCREEN WHITE APP (questions → analyzing → result) -->
+    <main class="content-panel" id="appPage">
+        <h1 class="app-heading">🥥 Thenga Risk</h1>
+
+        <!-- ONE QUESTION AT A TIME -->
+        <section class="screen active" id="screen-question">
+            <div class="progress" id="progressDots"></div>
+            <div class="question-card" id="questionCard"></div>
+            <div class="nav-row">
+                <button class="btn ghost" id="backBtn">⬅ Back</button>
+                <button class="btn primary" id="nextBtn" disabled>Next ➡️</button>
+            </div>
+        </section>
+
+        <!-- ANALYZING -->
+        <section class="screen" id="screen-analyzing">
+            <h2>🤖 Twins are analyzing...</h2>
+            <div class="analyzing-lines" id="analyzingLines"></div>
+        </section>
+
+        <!-- RESULT -->
+        <section class="screen" id="screen-result">
+            <div class="meter-container">
+                <div class="meter-label">🥥 Thenga danger meter</div>
+                <div class="meter">
+                    <div id="meterFill"></div>
+                </div>
+            </div>
+
+            <div id="result"></div>
+
+            <button class="btn danger" id="runButton">🏃 I should probably run</button>
+
+            <button class="btn ghost" id="restartBtn">🔄 Check again</button>
+        </section>
+    </main>
+</div>
+
+<!-- LEFT ICON RAIL — replaces the long stack of collapsible sections; only shown on the result screen -->
+<nav class="side-rail" id="sideRail"></nav>
+
+<!-- SLIDE-IN PANEL — opens for whichever rail icon (or Premium) was clicked, so nothing has to scroll the whole page -->
+<div class="panel-overlay" id="panelOverlay"></div>
+<aside class="side-panel" id="sidePanel">
+    <button class="panel-close" id="panelClose">✕</button>
+    <div id="panelContent"></div>
+</aside>
+
+<script src="script.js"></script>
+</body>
+</html>
